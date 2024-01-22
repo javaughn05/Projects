@@ -1,0 +1,124 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+/*
+
+table {
+    background-color: transparent;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+table th,
+table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgb(179, 208, 255, 0.3)
+} */
+
+/* STYLING FOR register.html */
+/* #logo {
+    width: 303px;
+    height: 76px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+}
+
+#new_connection {
+    color: black;
+    font-size: 18px;
+    font-family: SF Pro Display;
+    font-style: italic;
+    font-weight: 200;
+    word-wrap: break-word;
+    width: 295px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+#username_text {
+    width: 65px;
+    height: 15px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#password_text {
+    color: #000;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    width: 106px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+#confirm_text {
+    width: 158px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#email_text {
+    width: 158px;
+    height: 16px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-control {
+
+} */
+
+
+
+
+/* ************************ */
+/* STYLING FOR queue.html */
+
+#chat-messages {
+    overflow-y: scroll;
+}
+
+li {
+    list-style: none;
+}
+
+.spinner {
+    border: 4px solid rgba(0,0,0,.1);
+    border-radius: 50%;
+    border-top: 4px solid #000;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
