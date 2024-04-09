@@ -3,9 +3,9 @@
 1. (a) In order to first open the project, navigate to the "sincerely" directory (cd sincerely) and run it using (python run.py). When you first join, you should see the nav bar at the top with a link for the "Register" page. You can click on this page and add your own account by filling out each field and pressing submit. When registering, be sure to include an email with a valid Ivy-League school domain (@yale.edu, @harvard.edu, etc.). You will then automatically be logged in, where you can skip to step 2
 
 1. (b) You may also directly click the login button and login into an already existing account (see SQL userbase.db for existing accounts -- for testing purposes, for any already existing accounts, I set the passwords to the second part of the email handle ex:
-email: jack.poop@yale.edu
-username: jack
-password: poop)
+email: john.doe@yale.edu
+username: john
+password: apple123 )
 Existing accounts already have scores registered, so skip to step 3
 
 2. When you login, you should first click the "Scores" button and add your Big Five personality test results (any numbers 0-100). Within the "scores" page, add integers between 0-100 to each one of the input fields. After you've filled these inputs out, press the submit button at the bottom. This will automatically send you to the queue page.
